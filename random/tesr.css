@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.border {
+
+    background-color: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+
+    /* position: relative; */
+    position: inherit;
+
+
+
+}
+
+.test-div {
+    display: flex;
+    /* justify-content: space-evenly; */
+    width: 1920px;
+    height: 4867px;
+    gap: 24px;
+    margin-left: 240px;
+    margin-right: 240px;
+
+    position: relative;
+}
+
+.border-img {
+    width: 310px;
+    height: 428px;
+
+    position: absolute;
+    bottom: 0px;
+
+}
